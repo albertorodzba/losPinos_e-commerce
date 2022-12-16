@@ -1,0 +1,5 @@
+USE los_pinos;
+SELECT * FROM USER;
+
+#INSERT INTO USER VALUES('ADMINMAR99', 'mario@hotmail.com', '1234', DEFAULT, 1);
+#SELECT * FROM USER;

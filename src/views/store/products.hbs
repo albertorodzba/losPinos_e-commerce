@@ -1,0 +1,18 @@
+
+    <div class="row m-2">
+        {{#each products}}
+        <div class="m-4">
+            <div class="card " style="width: 18rem;">
+                <img class="card-img-top" src="/imgs/logo.png" style="width: 286px;" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">{{product_name}}</h5>
+                    {{#if description}}
+                    <p class="card-text">{{description}}</p>
+                    {{/if}}
+                    <p class="card-text">${{cost}}</p>
+                    <a href="#" class="btn btn-primary" style="background-color: #342B28;">Agregar a carrito</a>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>

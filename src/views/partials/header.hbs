@@ -1,0 +1,21 @@
+<nav class="navigation">
+    <div>
+        <img src="/imgs/logo.png" alt="" class="logo" />
+
+    </div>
+    <ul>
+        <li><a href="/home" class="nav-option">Inicio</a></li>
+        <li> | </li>
+        <li><a href="/store/products" class="nav-option">Productos</a></li>
+        <li> | </li>
+        <li><a href="/auth/signup" class="nav-option">Registrarse</a></li>
+        <li> | </li>
+        <li><a href="/auth/signin" class="nav-option">Iniciar sesión</a></li>
+        {{#if activeSession}}
+        <li> | </li>
+            <li>
+                <a href="/auth/logout">Cerrar sesión</a>
+            </li>
+        {{/if}}
+    </ul>
+</nav>

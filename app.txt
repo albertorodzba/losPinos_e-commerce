@@ -1,0 +1,22 @@
+/** ESTRUCTURA que debe tener el app.js */
+
+
+/**
+ * 1. Importaciones propias de node.js ( path )
+ * 2. Importaciones de modulos de terceros ( dotenv, express, express-handlebars, handlebars, etc)
+ * 3. Importacion propios ( según su uso y flujo del programa )
+ * 4. Importaciones de base de datos
+ * 5. Inicializzaciónn de express en la variable app
+ * 6. Opcional - obtención de las varaibles de entorno y asignarlas a constantes ( usa el modulo dotenv )
+ * 7. SETTINGS
+ * 8. MIDDLEWARE
+ * 9. ROUTES
+ * 10. PUBLIC
+ * 11. 404 NOT FOUND
+ * 12. app Listen
+ */
+
+
+ /**
+ PARA DEBUGEAR, SE NECESITA CONFIGURAR EL JSON CON LA RUTA DEL INDEX DEL SERVIDOR
+ */

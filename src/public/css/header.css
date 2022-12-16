@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body, html{
+    width: 100%;
+
+}
+:root{
+    /*Cambia el nombre de los colores*/
+    --woodBrown: #342B28;
+    --coffeBrown:#815129;
+    --secondBrownColor: #B17B4C;
+    --cream: #F4CCA3;
+    --white: rgb(255, 255, 255);
+}
+
+.navigation{
+    background-color: var(--woodBrown);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Overpass", "sans-serif";
+    font-size: 1.2rem;
+}
+.navigation > ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+    list-style-type: none;
+}
+.navigation > ul > li{
+    margin-inline-start: 1em;
+
+}
+
+.logo{
+    width: 7rem;
+    margin-left: 0.5em;
+    filter: invert(100%);
+}
+
+a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+a:hover{
+    box-shadow: 1em;
+}
+
